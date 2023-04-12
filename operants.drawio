@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T03:54:18.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="k192Ow_IGxcx1I8UQ4z2" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T03:55:50.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PEQi2sQyYxkexsJYAXpM" version="20.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1773" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
           <mxGeometry x="460" y="440" width="660" height="250" as="geometry" />
         </mxCell>
         <mxCell id="3pRZeUomV-_jTDMupkCG-20" value="«interface»&lt;br&gt;&lt;b&gt;TensorOperantsBase&lt;/b&gt;" style="html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="480" width="202.5" height="50" as="geometry" />
+          <mxGeometry x="182.5" y="490" width="202.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3pRZeUomV-_jTDMupkCG-29" value="PhiTensorOperants:&amp;nbsp;TensorOperantsBase" style="html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="35" y="570" width="350" height="50" as="geometry" />
@@ -71,6 +71,12 @@
         </mxCell>
         <mxCell id="3pRZeUomV-_jTDMupkCG-31" value="StaticTensorOperants:&amp;nbsp;TensorOperantsBase" style="html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="482.5" y="570" width="367.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3pRZeUomV-_jTDMupkCG-32" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3pRZeUomV-_jTDMupkCG-20" target="3pRZeUomV-_jTDMupkCG-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

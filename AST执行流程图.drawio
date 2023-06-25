@@ -1,9 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T06:40:33.896Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.0" etag="XrnX_c3irr0SzW6MrcXC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T06:47:16.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fwcf8KQXhW7gKbMLd1oX" version="21.5.0" type="github">
   <diagram name="第 1 页" id="YnzpbLVSBEW2W_aMIhlS">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6Jdx5kLrER20dMgVWngY-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Jdx5kLrER20dMgVWngY-1" target="6Jdx5kLrER20dMgVWngY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Jdx5kLrER20dMgVWngY-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6Jdx5kLrER20dMgVWngY-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6Jdx5kLrER20dMgVWngY-15" target="6Jdx5kLrER20dMgVWngY-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Jdx5kLrER20dMgVWngY-22" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6Jdx5kLrER20dMgVWngY-21">
+          <mxGeometry x="-0.05" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Jdx5kLrER20dMgVWngY-15" value="遍历计算图中的所有 Group&lt;br&gt;遍历到末尾？" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6Jdx5kLrER20dMgVWngY-20" value="遍历 SequentialRegexNode2&lt;br&gt;的 type 类型&lt;br&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="275" y="350" width="230" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
